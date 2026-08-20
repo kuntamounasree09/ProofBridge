@@ -1,0 +1,138 @@
+{
+  "common": {
+    "appName": "ProofBridge",
+    "tagline": "AI-संचालित साक्ष्य और केस प्रबंधन",
+    "loading": "लोड हो रहा है...",
+    "cancel": "रद्द करें",
+    "save": "सहेजें",
+    "back": "वापस",
+    "active": "सक्रिय",
+    "error": "कुछ गलत हो गया",
+    "success": "सफल"
+  },
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "cases": "मेरे केस",
+    "logout": "लॉग आउट",
+    "backToDashboard": "डैशबोर्ड पर वापस"
+  },
+  "auth": {
+    "welcomeBack": "वापसी पर स्वागत है",
+    "signInSubtitle": "अपने केस और साक्ष्य प्रबंधित करने के लिए साइन इन करें",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "signIn": "साइन इन",
+    "signingIn": "साइन इन हो रहा है...",
+    "noAccount": "खाता नहीं है?",
+    "createOne": "बनाएं",
+    "getStarted": "शुरू करें",
+    "registerSubtitle": "साक्ष्य और केस प्रबंधित करने के लिए पंजीकरण करें",
+    "fullName": "पूरा नाम",
+    "createAccount": "खाता बनाएं",
+    "creatingAccount": "खाता बन रहा है...",
+    "hasAccount": "पहले से खाता है?",
+    "signInLink": "साइन इन",
+    "accountCreated": "खाता बन गया! लॉगिन पर भेजा जा रहा है...",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "अपना पासवर्ड दर्ज करें",
+    "namePlaceholder": "आपका नाम",
+    "passwordMinPlaceholder": "कम से कम 6 अक्षर"
+  },
+  "dashboard": {
+    "workspace": "आपका कार्यक्षेत्र",
+    "welcome": "वापसी पर स्वागत है, {{name}}",
+    "myCases": "मेरे केस",
+    "caseCount": "{{count}} केस · साक्ष्य प्रबंधित करें और समाधान ट्रैक करें",
+    "newCase": "नया केस",
+    "createCase": "नया केस बनाएं",
+    "caseTitle": "केस शीर्षक",
+    "caseTitlePlaceholder": "उदा. सुरक्षा अनुपालन समीक्षा",
+    "description": "विवरण",
+    "descriptionPlaceholder": "समस्या, सेवा समस्या, या अनुपालन चिंता का वर्णन करें...",
+    "creating": "बन रहा है...",
+    "createCaseBtn": "केस बनाएं",
+    "caseCreated": "केस सफलतापूर्वक बनाया गया!",
+    "titleRequired": "केस शीर्षक आवश्यक है।",
+    "noCases": "अभी कोई केस नहीं",
+    "noCasesHint": "साक्ष्य व्यवस्थित करने और समाधान योजना बनाने के लिए अपना पहला केस बनाएं।",
+    "documents": "{{count}} दस्तावेज़",
+    "statsCases": "कुल केस",
+    "statsDocuments": "दस्तावेज़",
+    "statsActive": "सक्रिय केस",
+    "workflowTitle": "ProofBridge कैसे काम करता है"
+  },
+  "case": {
+    "loading": "केस लोड हो रहा है...",
+    "notFound": "केस नहीं मिला।",
+    "created": "बनाया गया {{date}}",
+    "documentCount": "{{count}} दस्तावेज़",
+    "documentsAnalysis": "दस्तावेज़ और विश्लेषण",
+    "documentsSubtitle": "AI-संचालित अंतर्दृष्टि के साथ अपलोड किए गए साक्ष्य",
+    "noDocuments": "अभी कोई दस्तावेज़ नहीं। ऊपर अपना पहला साक्ष्य अपलोड करें।",
+    "progressTitle": "केस प्रगति"
+  },
+  "upload": {
+    "title": "साक्ष्य अपलोड करें",
+    "subtitle": "AI विश्लेषण के लिए दस्तावेज़ अपलोड करें। समर्थित: TXT, PDF, DOCX (अधिकतम 10 MB)।",
+    "dragDrop": "फ़ाइल यहाँ खींचें और छोड़ें, या ब्राउज़ करने के लिए क्लिक करें",
+    "voiceInput": "आवाज़ से वर्णन",
+    "listening": "सुन रहा है...",
+    "aiRunsAfter": "अपलोड के बाद AI विश्लेषण स्वचालित रूप से चलता है",
+    "uploadBtn": "दस्तावेज़ अपलोड करें",
+    "uploading": "अपलोड और विश्लेषण हो रहा है...",
+    "formatError": "समर्थित प्रारूप: TXT, PDF, DOCX",
+    "sizeError": "फ़ाइल 10 MB से कम होनी चाहिए"
+  },
+  "analysis": {
+    "title": "AI विश्लेषण",
+    "listen": "सुनें",
+    "stop": "रोकें",
+    "speaking": "बोल रहा है..."
+  },
+  "actionPlan": {
+    "title": "कार्य योजना",
+    "subtitle": "अपने साक्ष्य विश्लेषण से समाधान वर्कफ़्लो बनाएं",
+    "generate": "योजना बनाएं",
+    "regenerate": "पुनः बनाएं",
+    "generating": "बन रहा है...",
+    "noDocuments": "कार्य योजना बनाने के लिए कम से कम एक दस्तावेज़ अपलोड करें।",
+    "generated": "बनाया गया {{date}}",
+    "listen": "योजना सुनें"
+  },
+  "history": {
+    "title": "गतिविधि इतिहास",
+    "subtitle": "इस केस पर की गई कार्रवाइयों की समयरेखा",
+    "empty": "अभी कोई गतिविधि दर्ज नहीं।"
+  },
+  "workflow": {
+    "step1": "केस बनाएं",
+    "step2": "दस्तावेज़ अपलोड",
+    "step3": "AI विश्लेषण",
+    "step4": "कार्य योजना",
+    "step5": "प्रगति ट्रैक"
+  },
+  "voice": {
+    "title": "AI वॉयस असिस्टेंट",
+    "subtitle": "प्रश्न पूछें या विश्लेषण सुनें",
+    "open": "वॉयस असिस्टेंट खोलें",
+    "close": "बंद करें",
+    "askPlaceholder": "इस केस के बारे में पूछें या 'read analysis' कहें...",
+    "send": "भेजें",
+    "mic": "आवाज़ इनपुट शुरू",
+    "stopMic": "सुनना बंद",
+    "readAnalysis": "नवीनतम विश्लेषण सुनें",
+    "readPlan": "कार्य योजना सुनें",
+    "notSupported": "इस ब्राउज़र में स्पीच समर्थित नहीं",
+    "thinking": "सोच रहा है..."
+  },
+  "theme": {
+    "light": "लाइट मोड",
+    "dark": "डार्क मोड",
+    "toggle": "थीम बदलें"
+  },
+  "language": {
+    "label": "भाषा",
+    "en": "English",
+    "hi": "हिन्दी"
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "common": {
+    "appName": "ProofBridge",
+    "tagline": "AI-powered evidence & case management",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "save": "Save",
+    "back": "Back",
+    "active": "Active",
+    "error": "Something went wrong",
+    "success": "Success"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "cases": "My Cases",
+    "logout": "Logout",
+    "backToDashboard": "Back to Dashboard"
+  },
+  "auth": {
+    "welcomeBack": "Welcome back",
+    "signInSubtitle": "Sign in to manage your cases and evidence",
+    "email": "Email",
+    "password": "Password",
+    "signIn": "Sign In",
+    "signingIn": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "createOne": "Create one",
+    "getStarted": "Get started",
+    "registerSubtitle": "Register to start managing evidence and cases",
+    "fullName": "Full Name",
+    "createAccount": "Create Account",
+    "creatingAccount": "Creating account...",
+    "hasAccount": "Already have an account?",
+    "signInLink": "Sign in",
+    "accountCreated": "Account created! Redirecting to login...",
+    "emailPlaceholder": "you@example.com",
+    "passwordPlaceholder": "Enter your password",
+    "namePlaceholder": "Jane Doe",
+    "passwordMinPlaceholder": "At least 6 characters"
+  },
+  "dashboard": {
+    "workspace": "Your Workspace",
+    "welcome": "Welcome back, {{name}}",
+    "myCases": "My Cases",
+    "caseCount": "{{count}} case(s) · Manage evidence and track resolution",
+    "newCase": "New Case",
+    "createCase": "Create New Case",
+    "caseTitle": "Case Title",
+    "caseTitlePlaceholder": "e.g. Safety Compliance Review",
+    "description": "Description",
+    "descriptionPlaceholder": "Describe the issue, service problem, or compliance concern...",
+    "creating": "Creating...",
+    "createCaseBtn": "Create Case",
+    "caseCreated": "Case created successfully!",
+    "titleRequired": "Case title is required.",
+    "noCases": "No cases yet",
+    "noCasesHint": "Create your first case to start organizing evidence and building a resolution plan.",
+    "documents": "{{count}} document(s)",
+    "statsCases": "Total Cases",
+    "statsDocuments": "Documents",
+    "statsActive": "Active Cases",
+    "workflowTitle": "How ProofBridge Works"
+  },
+  "case": {
+    "loading": "Loading case...",
+    "notFound": "Case not found.",
+    "created": "Created {{date}}",
+    "documentCount": "{{count}} document(s)",
+    "documentsAnalysis": "Documents & Analysis",
+    "documentsSubtitle": "Uploaded evidence with AI-powered insights",
+    "noDocuments": "No documents yet. Upload your first piece of evidence above.",
+    "progressTitle": "Case Progress"
+  },
+  "upload": {
+    "title": "Upload Evidence",
+    "subtitle": "Upload documents for AI analysis. Supported: TXT, PDF, DOCX (max 10 MB).",
+    "dragDrop": "Drag & drop a file here, or click to browse",
+    "voiceInput": "Voice describe",
+    "listening": "Listening...",
+    "aiRunsAfter": "AI analysis runs automatically after upload",
+    "uploadBtn": "Upload Document",
+    "uploading": "Uploading & analyzing...",
+    "formatError": "Supported formats: TXT, PDF, DOCX",
+    "sizeError": "File must be under 10 MB"
+  },
+  "analysis": {
+    "title": "AI Analysis",
+    "listen": "Listen",
+    "stop": "Stop",
+    "speaking": "Speaking..."
+  },
+  "actionPlan": {
+    "title": "Action Plan",
+    "subtitle": "Generate a resolution workflow from your evidence analysis",
+    "generate": "Generate Plan",
+    "regenerate": "Regenerate",
+    "generating": "Generating...",
+    "noDocuments": "Upload at least one document to generate an action plan.",
+    "generated": "Generated {{date}}",
+    "listen": "Listen to plan"
+  },
+  "history": {
+    "title": "Activity History",
+    "subtitle": "Timeline of actions on this case",
+    "empty": "No activity recorded yet."
+  },
+  "workflow": {
+    "step1": "Create Case",
+    "step2": "Upload Documents",
+    "step3": "AI Analysis",
+    "step4": "Action Plan",
+    "step5": "Track Progress"
+  },
+  "voice": {
+    "title": "AI Voice Assistant",
+    "subtitle": "Ask questions or listen to analysis",
+    "open": "Open voice assistant",
+    "close": "Close",
+    "askPlaceholder": "Ask about this case or say 'read analysis'...",
+    "send": "Send",
+    "mic": "Start voice input",
+    "stopMic": "Stop listening",
+    "readAnalysis": "Read latest analysis",
+    "readPlan": "Read action plan",
+    "notSupported": "Speech not supported in this browser",
+    "thinking": "Thinking..."
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode",
+    "toggle": "Toggle theme"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "hi": "हिन्दी"
+  }
+}

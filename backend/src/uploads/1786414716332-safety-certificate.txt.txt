@@ -1,0 +1,9 @@
+Employee Safety Certificate
+
+Employee Name: John Doe
+Certificate: Workplace Safety Training
+Issue Date: 10 June 2026
+Expiry Date: 15 July 2026
+
+The employee submitted a safety certificate.
+The certificate has expired and a current valid certificate is required.
